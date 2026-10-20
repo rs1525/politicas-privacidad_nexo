@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>Política de Privacidad - Nexo Widgets</title>
+<meta name="description" content="Política de privacidad de Nexo Widgets, la app de widgets para la pantalla de inicio de Android desarrollada por akustom15.">
+<style>
+:root {
+  --acento: #5F05DB;
+  --acento-suave: #EFE7FD;
+  --fondo: #F8F9FA;
+  --tarjeta: #FFFFFF;
+  --titulo: #1A1A2E;
+  --texto: #4A4A5A;
+  --linea: #E6E6EE;
+  --tabla-cab: #F3F1FA;
+  --info: #F0F7FF;
+  --info-borde: #BAD7F7;
+  --aviso: #FFF6F5;
+  --aviso-borde: #F5C2BC;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --acento: #A77BFF;
+    --acento-suave: #241A3D;
+    --fondo: #0F0F1A;
+    --tarjeta: #1A1A2E;
+    --titulo: #F1F1F7;
+    --texto: #C2C2D2;
+    --linea: #2C2C45;
+    --tabla-cab: #222238;
+    --info: #14243A;
+    --info-borde: #2A4A70;
+    --aviso: #2E1B1D;
+    --aviso-borde: #6A3A3F;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.65; margin: 0; padding: 40px 16px;
+  color: var(--texto); background-color: var(--fondo);
+}
+.pagina { max-width: 860px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 36px; }
+/* El icono toca los bordes de su lienzo: recortado en círculo se comía las
+   puntas. Va sobre una baldosa clara, como un icono de app, y así también se
+   ve sobre el fondo oscuro. */
+.logo {
+  width: 112px; height: 112px; padding: 14px; margin-bottom: 18px;
+  background: #FFFFFF; border-radius: 26px;
+  box-shadow: 0 6px 20px rgba(26, 26, 46, 0.12);
+}
+h1 { color: var(--titulo); font-size: 30px; margin: 0 0 6px; }
+.app { font-size: 18px; color: var(--titulo); margin: 0; }
+.fecha { font-size: 14px; margin: 6px 0 0; }
+.content {
+  background: var(--tarjeta); padding: 40px; border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(26, 26, 46, 0.06);
+}
+h2 {
+  color: var(--titulo); font-size: 20px; margin: 36px 0 12px;
+  border-left: 4px solid var(--acento); padding-left: 14px;
+}
+h2:first-child { margin-top: 0; }
+p, li { font-size: 16px; }
+li { margin-bottom: 6px; }
+strong { color: var(--titulo); }
+a { color: var(--acento); }
+.resumen {
+  background: var(--acento-suave); border-radius: 14px; padding: 22px 26px; margin: 0 0 8px;
+}
+.resumen p:first-child { margin-top: 0; }
+.resumen ul { margin-bottom: 0; }
+.tabla { width: 100%; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 15px; }
+th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--linea); vertical-align: top; }
+th { background: var(--tabla-cab); color: var(--titulo); font-weight: 600; }
+td p { margin: 4px 0 0; font-size: 14px; }
+.info-box { background: var(--info); border: 1px solid var(--info-borde); padding: 16px 20px; border-radius: 10px; margin-top: 14px; }
+.alert-box { background: var(--aviso); border: 1px solid var(--aviso-borde); padding: 16px 20px; border-radius: 10px; margin-top: 14px; }
+.info-box p, .alert-box p { margin: 6px 0; }
+.contact-box { background: var(--acento-suave); padding: 26px; border-radius: 14px; margin-top: 40px; }
+.contact-box h2 { margin-top: 0; }
+.btn-telegram {
+  display: inline-block; background: #0088CC; color: #FFFFFF; padding: 10px 20px;
+  border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 6px;
+}
+@media (max-width: 600px) {
+  body { padding: 24px 12px; }
+  .content { padding: 24px 18px; }
+  h1 { font-size: 26px; }
+}
+</style>
+</head>
+<body>
+<div class="pagina">
+
+<div class="header">
+<img src="icono_nexo.png" alt="Logotipo de Nexo Widgets" class="logo">
+<h1>Política de Privacidad</h1>
+<p class="app"><strong>Nexo Widgets</strong></p>
+<p class="fecha">Última actualización: 20 de octubre de 2026</p>
+</div>
+
+<div class="content">
+
+<h2>1. Información general</h2>
+<p>Esta Política de Privacidad explica qué información utiliza la aplicación móvil <strong>Nexo Widgets</strong>, desarrollada por <strong>akustom15</strong>, para qué la utiliza, con quién se comparte y cómo puedes eliminarla.</p>
+<p>Nexo Widgets ofrece widgets para la pantalla de inicio de Android: reloj, fecha y calendario, tiempo, batería, música, dispositivos, alarmas, contactos, fotos y carpetas de aplicaciones, además de un catálogo de fondos de pantalla. <strong>No necesitas crear ninguna cuenta</strong> para usarla.</p>
+
+<div class="resumen">
+<p><strong>En resumen</strong></p>
+<p>Casi todo lo que hace Nexo Widgets ocurre en tu teléfono y no sale de él. Solo salen del dispositivo tres cosas, y únicamente cuando usas la función correspondiente:</p>
+<ul>
+<li>Tu <strong>ubicación aproximada</strong>, si usas un widget del tiempo, para pedir el pronóstico.</li>
+<li>Un <strong>identificador de instalación</strong>, para poder enviarte notificaciones sobre novedades de la app.</li>
+<li>Las <strong>peticiones de descarga</strong> normales al ver el catálogo de fondos de pantalla.</li>
+</ul>
+<p>No tenemos servidores propios que reciban datos tuyos, no hay anuncios, no hay analítica y no vendemos nada a nadie.</p>
+</div>
+
+<h2>2. Datos que salen de tu dispositivo</h2>
+<p>Estos son los únicos datos que la aplicación envía fuera de tu teléfono. Todas las comunicaciones van <strong>cifradas mediante HTTPS</strong>.</p>
+
+<div class="tabla">
+<table>
+<tr>
+<th>Dato</th>
+<th>Para qué y a quién</th>
+</tr>
+<tr>
+<td><strong>Ubicación aproximada</strong> (latitud y longitud)
+<p>Solo si concedes el permiso de ubicación y usas un widget del tiempo. Es ubicación <em>aproximada</em>, no la precisa del GPS, y nunca se solicita en segundo plano.</p></td>
+<td>Se envía a <strong>Open-Meteo</strong> (api.open-meteo.com) para obtener el tiempo actual y el pronóstico de tu zona. No la almacenamos ni la vinculamos a ti. Puedes usar la aplicación sin conceder este permiso; solo los widgets del tiempo dejarán de mostrar datos.</td>
+</tr>
+<tr>
+<td><strong>Identificador de instalación y token de notificaciones</strong>
+<p>Generados automáticamente por Firebase. No contienen tu nombre, correo ni ningún dato de tu cuenta de Google.</p></td>
+<td>Los usa <strong>Google Firebase Cloud Messaging</strong> para hacer llegar a tu dispositivo las notificaciones con novedades de la aplicación. No los recibimos ni los guardamos en ningún servidor propio. Puedes desactivar las notificaciones desde los ajustes de Android.</td>
+</tr>
+<tr>
+<td><strong>Peticiones de descarga</strong>
+<p>Como en cualquier conexión a internet, el servidor que entrega el contenido ve tu dirección IP.</p></td>
+<td>Al abrir el catálogo de fondos de pantalla o la sección de otras aplicaciones, la app descarga imágenes públicas desde <strong>GitHub</strong> (raw.githubusercontent.com) y las miniaturas a través de <strong>images.weserv.nl</strong>, un servicio que las reduce de tamaño. No enviamos ningún dato tuyo en esas peticiones.</td>
+</tr>
+</table>
+</div>
+
+<h2>3. Datos que se usan solo en tu dispositivo</h2>
+<p>Para funcionar, algunos widgets necesitan información de tu teléfono. Toda esta información <strong>se procesa localmente y nunca sale de tu dispositivo</strong>:</p>
+<ul>
+<li><strong>Calendario:</strong> se leen tus eventos para mostrarlos en los widgets de fecha y calendario.</li>
+<li><strong>Contactos:</strong> cuando eliges un contacto para un widget, el selector de Android nos entrega <em>solo ese contacto</em>. Guardamos su nombre y su número en el almacenamiento privado de la app para mostrarlo y poder llamarle o escribirle desde el widget. No tenemos acceso al resto de tu agenda.</li>
+<li><strong>Fotos:</strong> para los widgets de fotos usamos el selector de fotos de Android, que solo nos entrega la imagen concreta que eliges. Guardamos una copia recortada en el almacenamiento privado de la app. No tenemos acceso al resto de tu galería.</li>
+<li><strong>Música en reproducción:</strong> el título, el artista, la carátula y el estado de la canción que está sonando, para mostrarlos y controlarlos desde los widgets de música (ver sección 4).</li>
+<li><strong>Accesorios Bluetooth:</strong> el nombre y el nivel de batería de los auriculares u otros accesorios conectados, para los widgets de dispositivos.</li>
+<li><strong>Batería, alarmas y estado del teléfono:</strong> el nivel de carga, la próxima alarma programada y datos similares que muestran los widgets.</li>
+<li><strong>Tus ajustes:</strong> el estilo, el color, el tema y el resto de opciones que eliges para cada widget y para la aplicación.</li>
+</ul>
+
+<h2>4. Acceso a las notificaciones</h2>
+<p>Los widgets de música te piden activar el <strong>acceso a las notificaciones</strong> en los ajustes de Android. Queremos explicar con claridad por qué y qué hacemos con él.</p>
+<div class="info-box">
+<p><strong>Para qué se usa:</strong> Android solo permite a una aplicación saber qué música se está reproduciendo —en Spotify, YouTube Music o cualquier otro reproductor— si tiene concedido este acceso. Es un requisito técnico del sistema para poder mostrar la canción actual y los controles de reproducción en el widget.</p>
+<p><strong>Lo que NO hacemos:</strong> la aplicación <strong>no lee, no guarda y no envía el contenido de tus notificaciones</strong>. No ve tus mensajes, correos ni avisos de otras aplicaciones. Solo consulta la información de la reproducción multimedia, que se usa en el propio dispositivo para pintar el widget.</p>
+<p><strong>Cómo retirarlo:</strong> puedes desactivarlo en cualquier momento desde Ajustes de Android → Notificaciones → Acceso a notificaciones. Los widgets de música dejarán de mostrar la canción, pero el resto de la aplicación seguirá funcionando.</p>
+</div>
+
+<h2>5. Permisos que solicita la aplicación</h2>
+<ul>
+<li><strong>Internet y estado de la red:</strong> para descargar el tiempo, el catálogo de fondos de pantalla y recibir notificaciones. El resto de la aplicación funciona sin conexión.</li>
+<li><strong>Ubicación aproximada:</strong> para los widgets del tiempo. Es opcional y nunca se usa en segundo plano.</li>
+<li><strong>Calendario:</strong> para los widgets de fecha y calendario. Es opcional.</li>
+<li><strong>Dispositivos cercanos (Bluetooth):</strong> para leer el nombre y la batería de los accesorios conectados. Es opcional.</li>
+<li><strong>Notificaciones:</strong> para enviarte avisos sobre novedades de la aplicación.</li>
+<li><strong>Alarmas exactas e inicio automático:</strong> para que los widgets de reloj, fecha y batería se actualicen puntualmente, también después de reiniciar el teléfono.</li>
+<li><strong>Servicio en primer plano:</strong> para mantener los widgets actualizados en los teléfonos que detienen las tareas en segundo plano. No descarga nada ni registra tu actividad.</li>
+<li><strong>Establecer fondo de pantalla:</strong> para aplicar el fondo que eliges del catálogo.</li>
+<li><strong>Abrir el reloj del sistema:</strong> al tocar un widget de alarma, para abrir la aplicación de reloj de tu teléfono.</li>
+</ul>
+<p>No solicitamos permisos de lectura de contactos, de tu galería de fotos ni de tu almacenamiento: para elegir contactos e imágenes utilizamos los selectores de Android, que solo nos entregan lo que tú eliges.</p>
+
+<h2>6. Lo que la aplicación NO hace</h2>
+<ul>
+<li>No muestra publicidad.</li>
+<li>No incluye ningún sistema de <strong>analítica, seguimiento ni informes de fallos</strong>.</li>
+<li>No requiere crear una cuenta ni recoge tu nombre, correo electrónico o número de teléfono.</li>
+<li>No vende ni comparte tus datos con terceros para sus propios fines.</li>
+<li>No lee el contenido de tus notificaciones ni tus mensajes.</li>
+<li>No accede a tu ubicación en segundo plano.</li>
+<li>No ve tus datos de pago (ver sección 8).</li>
+</ul>
+
+<h2>7. Copia de seguridad de Android</h2>
+<p>Si tienes activada la copia de seguridad de Android, el propio sistema puede incluir los ajustes de la aplicación y las fotos y contactos que hayas puesto en tus widgets en la copia de seguridad de tu cuenta de Google, para restaurarlos si cambias de teléfono. Esa copia la gestiona Google y está asociada a tu cuenta; <strong>nosotros no tenemos acceso a ella</strong>. Puedes desactivarla en los ajustes de copia de seguridad de Android.</p>
+
+<h2>8. Compras dentro de la aplicación</h2>
+<p>Nexo Widgets se descarga gratis. Si la aplicación ofrece widgets o funciones de pago, la compra se realiza íntegramente a través de <strong>Google Play</strong>: tu tarjeta y tus datos de facturación los gestiona exclusivamente Google y nosotros no llegamos a verlos en ningún momento.</p>
+<p>Sobre los reembolsos:</p>
+<ul>
+<li><strong>Periodo de Google Play:</strong> los reembolsos se gestionan a través de Google Play Store, dentro del plazo que establecen sus políticas (generalmente las primeras 48 horas tras la compra).</li>
+<li><strong>Después de ese plazo:</strong> dada la naturaleza digital del producto, no se realizan reembolsos una vez transcurrido el plazo oficial de Google Play.</li>
+<li><strong>Problemas técnicos:</strong> si algún widget no funciona bien en tu teléfono, escríbenos antes de pedir un reembolso; haremos lo posible por solucionarlo.</li>
+</ul>
+
+<h2>9. Proveedores externos</h2>
+<p>La aplicación se apoya en estos servicios de terceros, únicamente para lo descrito en la sección 2:</p>
+<ul>
+<li><strong>Open-Meteo:</strong> datos meteorológicos para los widgets del tiempo.</li>
+<li><strong>Google Firebase Cloud Messaging:</strong> envío de notificaciones.</li>
+<li><strong>GitHub</strong> e <strong>images.weserv.nl:</strong> alojamiento y redimensionado de las imágenes del catálogo de fondos de pantalla.</li>
+<li><strong>Google Play:</strong> distribución de la aplicación y, en su caso, gestión de las compras.</li>
+</ul>
+<p>Cada uno de ellos trata la información conforme a su propia política de privacidad.</p>
+
+<h2 id="eliminacion-de-datos">10. Conservación y eliminación de tus datos</h2>
+<p>No conservamos datos tuyos en servidores propios, porque no tenemos servidores que los reciban. Todo lo descrito en la sección 3 vive en el almacenamiento privado de la aplicación en tu teléfono.</p>
+<div class="info-box">
+<p><strong>Cómo borrarlo todo</strong></p>
+<p>Al <strong>desinstalar la aplicación</strong>, o desde Ajustes de Android → Aplicaciones → Nexo Widgets → Almacenamiento → <em>Borrar datos</em>, se eliminan de forma permanente tus ajustes, las fotos y los contactos de tus widgets y el identificador de instalación de Firebase de tu dispositivo.</p>
+<p>Si tienes cualquier duda o quieres ejercer tus derechos sobre tus datos, escríbenos a <strong>akustom15help@gmail.com</strong> con el asunto <em>"Privacidad"</em> y te responderemos en un plazo máximo de 30 días.</p>
+</div>
+
+<h2>11. Menores de edad</h2>
+<p>La aplicación no está dirigida a menores de 13 años y no recopila de forma consciente ningún dato de menores de esa edad.</p>
+
+<h2>12. Cambios en esta política</h2>
+<p>Podemos actualizar esta Política, por ejemplo si añadimos nuevas funciones que cambien los datos que se utilizan. Los cambios son efectivos desde su publicación en esta página, y la fecha de "última actualización" del encabezado refleja siempre la versión vigente.</p>
+
+<div class="contact-box">
+<h2>13. Soporte y contacto</h2>
+<p>Si tienes dudas sobre esta política, quieres ejercer tus derechos sobre tus datos o necesitas ayuda técnica:</p>
+<p><strong>Correo:</strong> akustom15help@gmail.com</p>
+<p><strong>Soporte técnico:</strong></p>
+<a href="https://t.me/AKustom15_Support" class="btn-telegram" target="_blank" rel="noopener">Contactar en Telegram</a>
+</div>
+
+</div>
+</div>
+</body>
+</html>
