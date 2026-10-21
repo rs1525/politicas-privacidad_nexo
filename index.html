@@ -102,7 +102,7 @@ td p { margin: 4px 0 0; font-size: 14px; }
 <img src="icono_nexo.png" alt="Logotipo de Nexo Widgets" class="logo">
 <h1>Política de Privacidad</h1>
 <p class="app"><strong>Nexo Widgets</strong></p>
-<p class="fecha">Última actualización: 20 de octubre de 2026</p>
+<p class="fecha">Última actualización: 21 de octubre de 2026</p>
 </div>
 
 <div class="content">
@@ -146,6 +146,11 @@ td p { margin: 4px 0 0; font-size: 14px; }
 <p>Como en cualquier conexión a internet, el servidor que entrega el contenido ve tu dirección IP.</p></td>
 <td>Al abrir el catálogo de fondos de pantalla o la sección de otras aplicaciones, la app descarga imágenes públicas desde <strong>GitHub</strong> (raw.githubusercontent.com) y las miniaturas a través de <strong>images.weserv.nl</strong>, un servicio que las reduce de tamaño. No enviamos ningún dato tuyo en esas peticiones.</td>
 </tr>
+<tr>
+<td><strong>Comprobante de compra</strong>
+<p>Solo si compras Nexo Pro. Es el identificador de la compra que genera Google Play y un certificado de Google Play Integrity que confirma que la app es la original. No contiene tu nombre, tu correo ni tus datos de pago.</p></td>
+<td>Se envía a nuestro <strong>servidor de verificación</strong>, alojado en <strong>Cloudflare</strong>, que pregunta a Google si la compra es válida y devuelve una licencia que desbloquea los widgets. Se comprueba al comprar y después aproximadamente una vez al mes. El servidor procesa la petición al momento y <strong>no guarda nada</strong>: no tiene base de datos.</td>
+</tr>
 </table>
 </div>
 
@@ -159,6 +164,7 @@ td p { margin: 4px 0 0; font-size: 14px; }
 <li><strong>Accesorios Bluetooth:</strong> el nombre y el nivel de batería de los auriculares u otros accesorios conectados, para los widgets de dispositivos.</li>
 <li><strong>Batería, alarmas y estado del teléfono:</strong> el nivel de carga, la próxima alarma programada y datos similares que muestran los widgets.</li>
 <li><strong>Tus ajustes:</strong> el estilo, el color, el tema y el resto de opciones que eliges para cada widget y para la aplicación.</li>
+<li><strong>Tu compra:</strong> si compras Nexo Pro, el identificador de la compra y la licencia se guardan protegidos en el almacenamiento privado de la app, para que los widgets sigan funcionando sin conexión. No se incluyen en la copia de seguridad de Android: en un teléfono nuevo, la compra se recupera de Google Play.</li>
 </ul>
 
 <h2>4. Acceso a las notificaciones</h2>
@@ -198,7 +204,8 @@ td p { margin: 4px 0 0; font-size: 14px; }
 <p>Si tienes activada la copia de seguridad de Android, el propio sistema puede incluir los ajustes de la aplicación y las fotos y contactos que hayas puesto en tus widgets en la copia de seguridad de tu cuenta de Google, para restaurarlos si cambias de teléfono. Esa copia la gestiona Google y está asociada a tu cuenta; <strong>nosotros no tenemos acceso a ella</strong>. Puedes desactivarla en los ajustes de copia de seguridad de Android.</p>
 
 <h2>8. Compras dentro de la aplicación</h2>
-<p>Nexo Widgets se descarga gratis. Si la aplicación ofrece widgets o funciones de pago, la compra se realiza íntegramente a través de <strong>Google Play</strong>: tu tarjeta y tus datos de facturación los gestiona exclusivamente Google y nosotros no llegamos a verlos en ningún momento.</p>
+<p>Nexo Widgets se descarga gratis e incluye widgets gratuitos. El resto se desbloquea con <strong>Nexo Pro</strong>, una compra única —no es una suscripción— que se realiza íntegramente a través de <strong>Google Play</strong>: tu tarjeta y tus datos de facturación los gestiona exclusivamente Google y nosotros no llegamos a verlos en ningún momento.</p>
+<p>Para confirmar que la compra es auténtica, la aplicación envía el comprobante de compra a nuestro servidor de verificación, tal como se explica en la sección 2. La compra queda asociada a tu cuenta de Google, así que puedes recuperarla en otro teléfono con la opción <em>Restaurar compra</em>.</p>
 <p>Sobre los reembolsos:</p>
 <ul>
 <li><strong>Periodo de Google Play:</strong> los reembolsos se gestionan a través de Google Play Store, dentro del plazo que establecen sus políticas (generalmente las primeras 48 horas tras la compra).</li>
@@ -212,12 +219,14 @@ td p { margin: 4px 0 0; font-size: 14px; }
 <li><strong>Open-Meteo:</strong> datos meteorológicos para los widgets del tiempo.</li>
 <li><strong>Google Firebase Cloud Messaging:</strong> envío de notificaciones.</li>
 <li><strong>GitHub</strong> e <strong>images.weserv.nl:</strong> alojamiento y redimensionado de las imágenes del catálogo de fondos de pantalla.</li>
-<li><strong>Google Play:</strong> distribución de la aplicación y, en su caso, gestión de las compras.</li>
+<li><strong>Google Play:</strong> distribución de la aplicación y gestión de las compras.</li>
+<li><strong>Google Play Integrity:</strong> certificado que confirma que la aplicación que hace una compra es la original de Google Play.</li>
+<li><strong>Cloudflare:</strong> alojamiento del servidor de verificación de compras.</li>
 </ul>
 <p>Cada uno de ellos trata la información conforme a su propia política de privacidad.</p>
 
 <h2 id="eliminacion-de-datos">10. Conservación y eliminación de tus datos</h2>
-<p>No conservamos datos tuyos en servidores propios, porque no tenemos servidores que los reciban. Todo lo descrito en la sección 3 vive en el almacenamiento privado de la aplicación en tu teléfono.</p>
+<p>No conservamos datos tuyos en servidores propios. El único servidor propio es el de verificación de compras, que responde al momento y no guarda nada. Todo lo descrito en la sección 3 vive en el almacenamiento privado de la aplicación en tu teléfono.</p>
 <div class="info-box">
 <p><strong>Cómo borrarlo todo</strong></p>
 <p>Al <strong>desinstalar la aplicación</strong>, o desde Ajustes de Android → Aplicaciones → Nexo Widgets → Almacenamiento → <em>Borrar datos</em>, se eliminan de forma permanente tus ajustes, las fotos y los contactos de tus widgets y el identificador de instalación de Firebase de tu dispositivo.</p>
